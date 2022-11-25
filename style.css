@@ -1,0 +1,39 @@
+@font-face {
+    font-family: roboto;
+    src: url(assets/Roboto-Black.ttf);
+    
+}
+
+body{
+    background-color: #181c24;
+    color: #00ff37;
+    font-family: roboto;
+    padding-top: 20px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    margin: 0;
+}
+h3{
+    color: white;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+#Centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#GreetingSmile{
+    width: 350px;
+}
+#Socials{
+    text-align: center;
+}
+svg{
+    margin: 5px;
+}
